@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/T4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="60dp"
+        android:autofillHints=""
+        android:background="#CCC8B6"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:text="@string/email"
+        android:textAlignment="center"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/T5"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:autofillHints=""
+        android:background="#CCC8B6"
+        android:ems="10"
+        android:hint="password"
+
+
+        android:inputType="textPassword"
+
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#112C47"
+        android:text="@string/login" />
+
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:text="@string/not_registered_register"
+        android:textColor="#324FBE"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
